@@ -1,0 +1,42 @@
+{
+    "site_name": "IVOMARKET",
+    "site_email": "info@ivomarket.com",
+    "site_phone": "+1 (234) 567-890",
+    "whatsapp": "1234567890",
+    "currency": "USD",
+    "currency_symbol": "$",
+    "social": {
+        "facebook": "https://facebook.com/ivomarket",
+        "instagram": "https://instagram.com/ivomarket",
+        "twitter": "https://x.com/ivomarket",
+        "youtube": "https://youtube.com/@ivomarket"
+    },
+    "payment_gateways": {
+        "stripe": {
+            "enabled": false,
+            "mode": "test",
+            "public_key_test": "",
+            "secret_key_test": "",
+            "public_key_live": "",
+            "secret_key_live": ""
+        },
+        "paypal": {
+            "enabled": false,
+            "mode": "sandbox",
+            "client_id_sandbox": "",
+            "client_secret_sandbox": "",
+            "client_id_live": "",
+            "client_secret_live": ""
+        },
+        "mercadopago": {
+            "enabled": false,
+            "mode": "test",
+            "public_key_test": "",
+            "access_token_test": "",
+            "public_key_live": "",
+            "access_token_live": ""
+        }
+    },
+    "admin_user": "admin",
+    "admin_pass_hash": "$2y$10$YWxhcmdhcGFzc3dvcmRoYXNo"
+}
